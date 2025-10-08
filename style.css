@@ -1,0 +1,27 @@
+/* html styles
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+} */
+
+body {
+    /* background-color as placeholder in case bg image doesn't load */
+    background-color: rgb(217, 234, 211);
+    /* background-image: url('---.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* translucent overlay on bg
+.bg-image styles
+    background: rgba(0, 0, 0, 0.5); */
+
+.navbar {
+    
+}
