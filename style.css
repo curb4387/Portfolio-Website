@@ -23,5 +23,14 @@ body {
     background: rgba(0, 0, 0, 0.5); */
 
 .navbar {
-    
+    background-color: rgb(182, 215, 168);
+    width: 98vw;
+    height: 5vh;
+    box-sizing: border-box;
+    padding: 0 2vw;
+    border: 0.3vw solid white;
+    border-radius: 1.5vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
