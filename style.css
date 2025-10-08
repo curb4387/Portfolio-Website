@@ -28,12 +28,27 @@ body {
     background-color: rgb(182, 215, 168);
     width: 98vw;
     height: 5vh;
+    padding: 0 2vw;
     border: 0.3vw solid white;
     border-radius: 1.5vw;
-    padding: 0 2vw;
     /* Arrange buttons inside the bar */
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
+/* Windows styles */
+/* .windows {
+
+} */
+
+.window-about {
+    box-sizing: border-box;
+    background-color: rgb(182, 215, 168);
+    width: 45vw;
+    height: 80vh;
+    padding: 2vw;
+    margin: 2vw 0;
+    border: 0.3vw solid white;
+    border-radius: 2vw;
+}
