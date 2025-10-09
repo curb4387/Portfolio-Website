@@ -42,6 +42,7 @@ body {
 
 } */
 
+/* About Me window styles */
 .window-about {
     box-sizing: border-box;
     background-color: rgb(182, 215, 168);
@@ -63,6 +64,7 @@ body {
 
 .tab-about {
     box-sizing: border-box;
+    color: white;
     background-color: rgb(147, 196, 125);
     width: 18vw;
     height: 4vh;
@@ -80,7 +82,17 @@ body {
     background-color: rgb(147, 196, 125);
     border: none;
     border-radius: 0.5vw;
-    /* Placeholder w x h for buttons */
     width: 3vw;
     height: 3vh;
+    margin-bottom: 0.2vw;
 }
+
+.symbol-min, .symbol-max, .symbol-exit {
+    color: white;
+    /* make sure buttons stay in middle of box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Projects window styles */
