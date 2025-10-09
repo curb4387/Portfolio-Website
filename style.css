@@ -38,7 +38,7 @@ body {
     height: 6vh;
     padding: 0 2vw;
     border: 2px solid white;
-    border-radius: 1.5vw;
+    border-radius: 15px;
     /* Arrange buttons inside the bar */
     display: flex;
     justify-content: flex-end;
@@ -47,7 +47,7 @@ body {
 
 .nav-about, .nav-projects, .nav-contact {
 
-    border-radius: 1vw;
+    border-radius: 7px;
 }
 
 /* Windows styles */
@@ -65,9 +65,9 @@ body {
 .window-about, .window-projects, .window-contact {
     box-sizing: border-box;
     background-color: rgb(182, 215, 168);
-    padding: 1.5vw 2vw;
+    padding: 12px 16px;
     border: 2px solid white;
-    border-radius: 2vw;
+    border-radius: 18px;
 }
 
 /* Individual window styles */
@@ -88,7 +88,7 @@ body {
 
 /* Tabs styles */
 .top-about, .top-projects, .top-contact {
-    border-bottom: 0.5vw solid rgb(147, 196, 125);;
+    border-bottom: 4px solid rgb(147, 196, 125);;
     /* Arrange tab name and buttons */
     display: flex;
     justify-content: space-between;
