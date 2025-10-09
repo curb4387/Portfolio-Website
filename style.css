@@ -1,7 +1,5 @@
-/* html styles
-html, body {
-    margin: 0;
-    padding: 0;
+/* html styles */
+/* html, body {
     width: 100vw;
     height: 100vh;
 } */
@@ -18,13 +16,14 @@ body {
     align-items: center; */
 }
 
-/* translucent overlay on bg
-.bg-image styles
-    background: rgba(0, 0, 0, 0.5); */
+/* translucent overlay on bg */
+/* .bg-image {
+    background-color: rgba(0, 0, 0, 0.5);
+} */
 
 /* Taskbar & windows organization styles */
 .content {
-    width: 98vw;
+    width: 97.5vw;
     height: 96vh;
     display: flex;
     flex-direction: column;
@@ -35,7 +34,7 @@ body {
 .navbar {
     box-sizing: border-box; /* h x w include content, padding, border sizes */
     background-color: rgb(182, 215, 168);
-    width: 98vw;
+    width: 97.5vw;
     height: 6vh;
     padding: 0 2vw;
     border: 2px solid white;
@@ -44,6 +43,11 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.nav-about, .nav-projects, .nav-contact {
+
+    border-radius: 1vw;
 }
 
 /* Windows styles */
@@ -109,9 +113,9 @@ body {
 .min, .max, .exit {
     background-color: rgb(147, 196, 125);
     border: none;
-    border-radius: 0.5vw;
-    width: 3vw;
-    height: 3vh;
+    border-radius: 4.5px;
+    width: 25px;
+    height: 25px;
     margin-bottom: 0.2vw;
 }
 
