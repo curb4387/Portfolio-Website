@@ -54,10 +54,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: rgb(106, 168, 79);
+    background-color: white;
     margin-left: 0.1vw;
     padding: 5px 3vw;
     border: none;
     border-radius: 10px;
+}
+
+.nav-about:hover, .nav-projects:hover, .nav-contact:hover {
+    color: white;
+    background-color: rgb(106, 168, 79);;
 }
 
 /* Windows styles */
@@ -118,8 +124,6 @@ body {
     justify-content: flex-start;
     align-items: flex-end;
 }
-
-
 
 /* Styling for all windows buttons */
 .buttons-about, .buttons-projects, .buttons-contact {
