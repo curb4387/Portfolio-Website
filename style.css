@@ -4,6 +4,11 @@
     height: 100vh;
 } */
 
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
 body {
     /* background-color as placeholder in case bg image doesn't load */
     background-color: rgb(217, 234, 211);
@@ -46,6 +51,8 @@ body {
 }
 
 .nav-about, .nav-projects, .nav-contact {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     color: rgb(106, 168, 79);
     margin-left: 0.1vw;
     padding: 5px 3vw;
