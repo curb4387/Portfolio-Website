@@ -99,17 +99,23 @@ body {
     box-sizing: border-box;
     color: white;
     background-color: rgb(147, 196, 125);
-    width: 18vw;
-    height: 4vh;
-    border-radius: 1.5vw 1.5vw 0 0;
+    width: 170px;
+    height: 30px;
+    border-radius: 12px 12px 0 0;
     /* Arrange text within the tab box */
-    padding: 0.2vw 1vw;
+    padding: 2px 10px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
 /* Styling for all windows buttons */
+.buttons-about, .buttons-projects, .buttons-contact {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .min, .max, .exit {
     background-color: rgb(147, 196, 125);
     border: none;
