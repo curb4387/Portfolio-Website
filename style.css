@@ -80,9 +80,8 @@ body {
     align-items: flex-end;
 }
 
-.buttons-about .min,
-.buttons-about .max,
-.buttons-about .exit {
+/* Styling for all windows buttons */
+.min, .max, .exit {
     background-color: rgb(147, 196, 125);
     border: none;
     border-radius: 0.5vw;
