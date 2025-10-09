@@ -52,10 +52,21 @@ body {
     border-radius: 2vw;
 }
 
-/* About Me window styles */
+/* Individual window styles */
 .window-about {
     width: 48vw;
     height: 80vh;
+}
+
+.window-projects {
+    width: 46vw;
+    height: 50vh;
+}
+
+.window-contact {
+    width: 46vw;
+    height: 28vh;
+    margin-top: 2vw;
 }
 
 .top-about, .top-projects, .top-contact {
@@ -97,15 +108,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-/* Projects window styles */
-/* .right-side {
-    justify-content: center;
-    align-items: center;
-} */
-
-.window-projects {
-    width: 46vw;
-    height: 50vh;
-}
-
