@@ -33,11 +33,11 @@ body {
 /* Navigation bar / taskbar styles */
 .navbar {
     box-sizing: border-box; /* h x w include content, padding, border sizes */
-    background-color: rgb(182, 215, 168);
+    background-color: rgb(147, 196, 125);
     width: 97.5vw;
     height: 44px;
     padding: 0 2vw;
-    border: 2px solid white;
+    border: none;
     border-radius: 15px;
     /* Arrange buttons inside the bar */
     display: flex;
@@ -46,6 +46,7 @@ body {
 }
 
 .nav-about, .nav-projects, .nav-contact {
+    color: rgb(106, 168, 79);
     margin-left: 0.1vw;
     padding: 5px 3vw;
     border: none;
@@ -68,7 +69,7 @@ body {
     box-sizing: border-box;
     background-color: rgb(182, 215, 168);
     padding: 12px 16px;
-    border: 2px solid white;
+    border: 2px solid rgb(147, 196, 125);
     border-radius: 18px;
 }
 
@@ -90,7 +91,7 @@ body {
 
 /* Tabs styles */
 .top-about, .top-projects, .top-contact {
-    border-bottom: 4px solid rgb(147, 196, 125);;
+    border-bottom: 4px solid rgb(147, 196, 125);
     /* Arrange tab name and buttons */
     display: flex;
     justify-content: space-between;
