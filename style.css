@@ -22,12 +22,20 @@ body {
 .bg-image styles
     background: rgba(0, 0, 0, 0.5); */
 
+.content {
+    width: 96vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* Navigation bar / taskbar styles */
 .navbar {
     box-sizing: border-box; /* h x w include content, padding, border sizes */
     background-color: rgb(182, 215, 168);
     width: 98vw;
-    height: 5vh;
+    height: 6vh;
     padding: 0 2vw;
     border: 2px solid white;
     border-radius: 1.5vw;
@@ -41,7 +49,12 @@ body {
 .windows {
     display: flex;
     justify-content: space-between;
-    margin: 2vw 0;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .window-about, .window-projects, .window-contact {
@@ -66,9 +79,9 @@ body {
 .window-contact {
     width: 46vw;
     height: 28vh;
-    margin-top: 2vw;
 }
 
+/* Tabs styles */
 .top-about, .top-projects, .top-contact {
     border-bottom: 0.5vw solid rgb(147, 196, 125);;
     /* Arrange tab name and buttons */
