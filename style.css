@@ -66,8 +66,6 @@ body {
     background-color: rgb(147, 196, 125);
     width: 18vw;
     height: 4vh;
-    border: 0.1vw solid white;
-    border-bottom: none;
     border-radius: 1.5vw 1.5vw 0 0;
     /* Arrange text within the tab box */
     padding: 0.2vw 1vw;
