@@ -58,7 +58,7 @@ body {
     height: 80vh;
 }
 
-.top-about {
+.top-about, .top-projects, .top-contact {
     border-bottom: 0.5vw solid rgb(147, 196, 125);;
     /* Arrange tab name and buttons */
     display: flex;
