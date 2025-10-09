@@ -47,8 +47,40 @@ body {
     background-color: rgb(182, 215, 168);
     width: 45vw;
     height: 80vh;
-    padding: 2vw;
+    padding: 1.5vw 2vw;
     margin: 2vw 0;
     border: 0.3vw solid white;
     border-radius: 2vw;
+}
+
+.top-about {
+    /* Arrange tab name and buttons */
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-about {
+    box-sizing: border-box;
+    background-color: rgb(147, 196, 125);
+    width: 18vw;
+    height: 4vh;
+    border: 0.1vw solid white;
+    border-radius: 1.5vw 1.5vw 0 0;
+    /* Arrange text within the tab box */
+    padding: 0.2vw 1vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* .buttons-about {
+    margin: 1vw;
+} */
+
+.buttons-about .min,
+.buttons-about .max,
+.buttons-about .exit {
+    /* Placeholder w x h for buttons */
+    width: 3vw;
+    height: 3vh;
 }
