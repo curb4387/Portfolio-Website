@@ -24,8 +24,8 @@ body {
 
 /* Taskbar & windows organization styles */
 .content {
-    width: 96vw;
-    height: 90vh;
+    width: 98vw;
+    height: 96vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,17 +69,17 @@ body {
 /* Individual window styles */
 .window-about {
     width: 48vw;
-    height: 80vh;
+    height: 88vh;
 }
 
 .window-projects {
     width: 46vw;
-    height: 50vh;
+    height: 55vh;
 }
 
 .window-contact {
     width: 46vw;
-    height: 28vh;
+    height: 31vh;
 }
 
 /* Tabs styles */
