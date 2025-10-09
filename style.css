@@ -119,6 +119,8 @@ body {
     align-items: flex-end;
 }
 
+
+
 /* Styling for all windows buttons */
 .buttons-about, .buttons-projects, .buttons-contact {
     width: 80px;
@@ -133,6 +135,14 @@ body {
     width: 25px;
     height: 25px;
     margin-bottom: 0.2vw;
+}
+
+.min:hover, .max:hover {
+    background-color: rgb(106, 168, 79);
+}
+
+.exit:hover {
+    background-color: rgb(227, 98, 98);
 }
 
 .symbol-min, .symbol-max, .symbol-exit {
