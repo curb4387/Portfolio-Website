@@ -35,7 +35,7 @@ body {
     box-sizing: border-box; /* h x w include content, padding, border sizes */
     background-color: rgb(182, 215, 168);
     width: 97.5vw;
-    height: 6vh;
+    height: 44px;
     padding: 0 2vw;
     border: 2px solid white;
     border-radius: 15px;
@@ -46,8 +46,10 @@ body {
 }
 
 .nav-about, .nav-projects, .nav-contact {
-
-    border-radius: 7px;
+    margin-left: 0.1vw;
+    padding: 5px 3vw;
+    border: none;
+    border-radius: 10px;
 }
 
 /* Windows styles */
