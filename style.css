@@ -29,7 +29,7 @@ body {
     width: 98vw;
     height: 5vh;
     padding: 0 2vw;
-    border: 0.3vw solid white;
+    border: 2px solid white;
     border-radius: 1.5vw;
     /* Arrange buttons inside the bar */
     display: flex;
@@ -38,20 +38,24 @@ body {
 }
 
 /* Windows styles */
-/* .windows {
+.windows {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 0;
+}
 
-} */
+.window-about, .window-projects, .window-contact {
+    box-sizing: border-box;
+    background-color: rgb(182, 215, 168);
+    padding: 1.5vw 2vw;
+    border: 2px solid white;
+    border-radius: 2vw;
+}
 
 /* About Me window styles */
 .window-about {
-    box-sizing: border-box;
-    background-color: rgb(182, 215, 168);
-    width: 45vw;
+    width: 48vw;
     height: 80vh;
-    padding: 1.5vw 2vw;
-    margin: 2vw 0;
-    border: 0.3vw solid white;
-    border-radius: 2vw;
 }
 
 .top-about {
@@ -96,3 +100,13 @@ body {
 }
 
 /* Projects window styles */
+/* .right-side {
+    justify-content: center;
+    align-items: center;
+} */
+
+.window-projects {
+    width: 46vw;
+    height: 50vh;
+}
+
