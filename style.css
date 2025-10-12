@@ -158,12 +158,33 @@ body {
 }
 
 /* Window content styles */
-.content-about {
+.content-about, .content-projects, .content-contact {
     box-sizing: border-box;
     background-color: rgb(255, 249, 242);
     padding: 12px 16px;
     border-radius: 0 0 14px 14px;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Individual window styles */
+.content-about {
     max-width: 100%;
     height: 94%;
-    display: flex;
+}
+
+.content-projects {
+    max-width: 100%;
+    height: 90%;
+}
+
+.content-contact {
+    max-width: 100%;
+    height: 82%;
+}
+
+.preview-about, .preview-projects, .preview-contact {
+    font-weight: lighter;
+    /* Vertical scrollbar */
+    overflow: auto;
 }
