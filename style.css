@@ -54,7 +54,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: rgb(106, 168, 79);
-    background-color: white;
+    background-color: rgb(255, 249, 242);
     margin-left: 0.1vw;
     padding: 5px 3vw;
     border: none;
@@ -62,7 +62,7 @@ body {
 }
 
 .nav-about:hover, .nav-projects:hover, .nav-contact:hover {
-    color: white;
+    color: rgb(255, 249, 242);
     background-color: rgb(106, 168, 79);;
 }
 
@@ -113,7 +113,7 @@ body {
 
 .tab-about, .tab-projects, .tab-contact {
     box-sizing: border-box;
-    color: white;
+    color: rgb(255, 249, 242);
     background-color: rgb(147, 196, 125);
     width: 170px;
     height: 30px;
@@ -150,7 +150,7 @@ body {
 }
 
 .symbol-min, .symbol-max, .symbol-exit {
-    color: white;
+    color: rgb(255, 249, 242);
     /* make sure buttons stay in middle of box */
     display: flex;
     justify-content: center;
