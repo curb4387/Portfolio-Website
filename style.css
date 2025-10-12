@@ -140,13 +140,16 @@ body {
     width: 25px;
     height: 25px;
     margin-bottom: 0.2vw;
-    display: flex; /* needed for buttons to stay in middle */
     /* Tooltip styles */
     cursor: pointer;
 }
 
 .max {
     padding-bottom: 5px;
+}
+
+.min, .exit {
+    padding-top: 3px;
 }
 
 .min:hover, .max:hover {
