@@ -63,7 +63,8 @@ body {
 
 .nav-about:hover, .nav-projects:hover, .nav-contact:hover {
     color: rgb(255, 249, 242);
-    background-color: rgb(106, 168, 79);;
+    background-color: rgb(106, 168, 79);
+    transition: color 0.5s, background-color 0.5s;
 }
 
 /* Windows styles */
@@ -139,18 +140,23 @@ body {
     width: 25px;
     height: 25px;
     margin-bottom: 0.2vw;
+    display: flex; /* needed for buttons to stay in middle */
     /* Tooltip styles */
-    /* position: relative; */
-    /* display: inline-block; */
     cursor: pointer;
+}
+
+.max {
+    padding-bottom: 5px;
 }
 
 .min:hover, .max:hover {
     background-color: rgb(106, 168, 79);
+    transition: background-color 0.3s;
 }
 
 .exit:hover {
     background-color: rgb(227, 98, 98);
+    transition: background-color 0.3s;
 }
 
 .symbol-min, .symbol-max, .symbol-exit {
