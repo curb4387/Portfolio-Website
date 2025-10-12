@@ -156,3 +156,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Window content styles */
+.content-about {
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    padding: 12px 16px;
+    max-width: 100%;
+    max-height: 94%; /* will fill to max of parent container */
+}
