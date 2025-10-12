@@ -55,7 +55,7 @@ body {
     font-weight: lighter;
     color: rgb(255, 249, 242);
     background-color: rgb(182, 215, 168);
-    width: 20%;
+    width: fit-content;
     height: auto;
     padding: 0 8px;
     border-radius: 10px;
