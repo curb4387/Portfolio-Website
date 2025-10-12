@@ -139,6 +139,10 @@ body {
     width: 25px;
     height: 25px;
     margin-bottom: 0.2vw;
+    /* Tooltip styles */
+    /* position: relative; */
+    /* display: inline-block; */
+    cursor: pointer;
 }
 
 .min:hover, .max:hover {
@@ -155,6 +159,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Button tooltip styles */
+.tool-min, .tool-max, .tool-exit {
+    visibility: hidden;
+    opacity: 0; /* add for fade effect */
+    display: border-box;
+    color: rgb(106, 168, 79);
+    background-color: rgb(255, 249, 242);
+    padding: 1px 3px;
+    width: fit-content;
+    height: auto;
+    border-radius: 4px;
+    transform: translate(-75%, -200%); /* move where tooltip pops up */
+    text-align: center;
+    z-index: 1;
+}
+
+.min:hover .tool-min, .max:hover .tool-max, .exit:hover .tool-exit {
+    visibility: visible;
+    opacity: 1;
+    /* Fade in opacity to 1 and delay tooltip appearing */
+    transition: opacity 0.5s ease-in 1s;
 }
 
 /* Content window styles */
