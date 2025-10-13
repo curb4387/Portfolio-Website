@@ -52,7 +52,7 @@ body {
     align-items: center;
 }
 
-.time-date {
+#time-date {
     /* font-size: ; */
     font-weight: lighter;
     color: rgb(255, 249, 242);
