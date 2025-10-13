@@ -1,0 +1,18 @@
+/* Styles for About Me page */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(255, 249, 242);
+}
+
+.content {
+    width: 93.5vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
