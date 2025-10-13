@@ -76,25 +76,32 @@ body {
     display: flex;
     flex-direction: column;
     /* center the top tab */
-    align-items: center; 
+    align-items: center;
 }
 
 .top-tab {
     box-sizing: border-box;
     color: rgb(255, 249, 242);
     background-color: rgb(147, 196, 125);
-    width: 97.5vw;
+    width: 97.3vw;
     height: 30px;
-    border-radius: 18px 18px 0 0;
+    border-radius: 16px 16px 0 0;
     padding: 0 10px;
     display: flex;
     align-items: center;
 }
 
-/* .pic1-about {
+.inner-content {
+    box-sizing: border-box;
+    font-weight: normal;
+    width: 96%;
+    height: 94%;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
 
-} */
-
-/* .intro {
-    
-} */
+.intro {
+    margin: 0; /* reset p element margins */
+}
