@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: rgb(255, 249, 242);
+    background-color: rgb(217, 234, 211);
 }
 
 /* Taskbar & windows organization styles */
@@ -19,7 +19,7 @@ body {
 }
 
 /* Navigation bar / taskbar styles */
-.navbar {
+#navbar {
     box-sizing: border-box; /* h x w include content, padding, border sizes */
     background-color: rgb(147, 196, 125);
     width: 97.5vw;
@@ -33,7 +33,7 @@ body {
     align-items: center;
 }
 
-.time-date {
+#time-date {
     /* font-size: ; */
     font-weight: lighter;
     color: rgb(255, 249, 242);
@@ -63,3 +63,38 @@ body {
     background-color: rgb(106, 168, 79);
     transition: color 0.5s, background-color 0.5s;
 }
+
+/* About styles */
+#about {
+    box-sizing: border-box;
+    background-color: rgb(255, 249, 242);
+    border: 2px solid rgb(147, 196, 125);
+    border-top: none;
+    border-radius: 18px;
+    width: 97.5vw;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    /* center the top tab */
+    align-items: center; 
+}
+
+.top-tab {
+    box-sizing: border-box;
+    color: rgb(255, 249, 242);
+    background-color: rgb(147, 196, 125);
+    width: 97.5vw;
+    height: 30px;
+    border-radius: 18px 18px 0 0;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* .pic1-about {
+
+} */
+
+/* .intro {
+    
+} */
