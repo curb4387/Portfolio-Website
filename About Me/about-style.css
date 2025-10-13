@@ -9,10 +9,57 @@ body {
     background-color: rgb(255, 249, 242);
 }
 
+/* Taskbar & windows organization styles */
 .content {
-    width: 93.5vw;
-    height: 92vh;
+    width: 97.5vw;
+    height: 96vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Navigation bar / taskbar styles */
+.navbar {
+    box-sizing: border-box; /* h x w include content, padding, border sizes */
+    background-color: rgb(147, 196, 125);
+    width: 97.5vw;
+    height: 44px;
+    padding: 0 2vw;
+    border: none;
+    border-radius: 15px;
+    /* Arrange buttons inside the bar */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+.time-date {
+    /* font-size: ; */
+    font-weight: lighter;
+    color: rgb(255, 249, 242);
+    background-color: rgb(182, 215, 168);
+    width: fit-content;
+    height: auto;
+    padding: 0 8px;
+    border-radius: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 84%;
+    color: rgb(106, 168, 79);
+    background-color: rgb(255, 249, 242);
+    margin-left: 0.1vw;
+    padding: 5px 3vw;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: rgb(255, 249, 242);
+    background-color: rgb(106, 168, 79);
+    transition: color 0.5s, background-color 0.5s;
 }
