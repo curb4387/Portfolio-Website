@@ -63,7 +63,8 @@ body {
     border-radius: 10px;
 }
 
-.nav-about, .nav-projects, .nav-contact {
+.nav-link {
+    text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 84%;
@@ -76,7 +77,7 @@ body {
     cursor: pointer;
 }
 
-.nav-about:hover, .nav-projects:hover, .nav-contact:hover {
+.nav-link:hover {
     color: rgb(255, 249, 242);
     background-color: rgb(106, 168, 79);
     transition: color 0.5s, background-color 0.5s;
