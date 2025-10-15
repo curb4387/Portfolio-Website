@@ -9,6 +9,7 @@
 html {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 body {
@@ -56,9 +57,7 @@ body {
 }
 
 #time-date {
-    /* font-size: ; */
     font-weight: lighter;
-    font-size: 1rem;
     color: rgb(255, 249, 242);
     background-color: rgb(182, 215, 168);
     width: fit-content;
@@ -71,7 +70,6 @@ body {
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 1rem;
     color: rgb(106, 168, 79);
     background-color: rgb(255, 249, 242);
     margin-left: 0.1rem;
@@ -213,7 +211,7 @@ body {
 
 .min:hover .tool-min, .max:hover .tool-max, .exit:hover .tool-exit {
     visibility: visible;
-    opacity: 1;
+    opacity: 0.85;
     /* Fade in opacity to 1 and delay tooltip appearing */
     transition: opacity 0.5s ease-in 1s;
 }
@@ -282,7 +280,6 @@ body {
     }
 
     #nav-link {
-        font-size: 90%;
         white-space: nowrap;
     }
 
