@@ -299,7 +299,8 @@ body {
     }
 
     #window-about, #window-projects, #window-contact {
-        width: 100%;
+        width: 99%;
+        margin: auto;
         margin-bottom: 0.3rem;
     }
 
