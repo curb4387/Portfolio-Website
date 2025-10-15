@@ -186,6 +186,11 @@ body {
     margin: 0; /* reset p element margins */
 }
 
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
 .body {
     margin-top: 0.5rem;
 }
@@ -199,21 +204,11 @@ body {
     font-weight: bold;
 }
 
-#skills {
+#skills, #successes, #section5 {
     display: flex;
     justify-content: center;
 }
 
-#section1, #section2 {
-    margin-right: 16px;
-}
-
-#successes {
-    display: flex;
-    justify-content: center;
-}
-
-#section5 {
-    display: flex;
-    justify-content: center;
+#section1, #section2, #successes, #subsec1, #subsec2, #subsec3 {
+    margin: 0 1rem;
 }
