@@ -266,6 +266,7 @@ ul, li {
 
 .dropdown.active .arrow-hide {
     display: inline;
+    margin-left: -1.5px; /* align title when revealed */
 }
 
 .tool-reveal, .tool-hide {
