@@ -153,7 +153,9 @@ span {
     width: fit-content;
     height: auto;
     border-radius: 4px;
-    transform: translate(-80%, -110%); /* move where tooltip pops up */
+    position: relative;
+    bottom: 1.2rem;
+    right: 2rem;
     text-align: center;
     white-space: nowrap;
     z-index: 1;
