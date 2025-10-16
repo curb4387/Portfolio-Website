@@ -10,6 +10,10 @@ body {
     background-color: rgb(217, 234, 211);
 }
 
+html, body {
+    overflow: hidden;
+}
+
 span {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -174,7 +178,7 @@ span {
     font-weight: normal;
     width: 96%;
     height: 94%;
-    padding: 0.75rem 1rem;
+    padding: 1rem 1rem;
     /* display: block; */
     display: flex;
     justify-content: space-between;
@@ -214,11 +218,16 @@ ul, li {
 
 #skills, #successes, #section5 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+#more-body {
+    padding: 0;
+    margin: 0 2rem;
 }
 
 #section1, #section2, #successes, #subsec1, #subsec2, #subsec3 {
-    margin: 0 1.7rem;
+    margin: 0 3rem;
 }
 
 .visible-content {
@@ -234,8 +243,29 @@ ul, li {
     cursor: pointer;
 }
 
-.title-hide, .arrow-hide, .hidden-content {
+.title-hide, .hidden-content {
     display: none;
+}
+
+.arrow-hide {
+    display: none;
+}
+
+.dropdown.active .hidden-content {
+    display: block;
+    padding: 0.75rem 0;
+}
+
+.dropdown.active .title-reveal {
+    display: none;
+}
+
+.dropdown.active .title-hide {
+    display: inline-flex;
+}
+
+.dropdown.active .arrow-hide {
+    display: inline;
 }
 
 .tool-reveal, .tool-hide {
