@@ -43,3 +43,34 @@
     background-color: rgb(106, 168, 79);
     transition: color 0.5s, background-color 0.5s;
 }
+
+
+/* Navbar styles for mobile devices */
+@media (max-width: 600px) {
+    #navbar {
+        position: fixed; /* follows screen when scrolling */
+        background-color: rgba(147, 196, 125, 0.9);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(2px);
+        border-radius: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        scrollbar-width: none;
+    }
+
+    #navbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    #nav-link {
+        white-space: nowrap;
+    }
+
+    #time-date {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
