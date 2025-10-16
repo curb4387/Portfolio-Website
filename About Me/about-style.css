@@ -10,6 +10,12 @@ body {
     background-color: rgb(217, 234, 211);
 }
 
+span {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 /* Taskbar & windows organization styles */
 .content {
     max-width: 97.5vw;
@@ -210,5 +216,45 @@ ul, li {
 }
 
 #section1, #section2, #successes, #subsec1, #subsec2, #subsec3 {
-    margin: 0 1rem;
+    margin: 0 1.7rem;
+}
+
+.visible-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-reveal, .title-hide {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.title-hide, .arrow-hide, .hidden-content {
+    display: none;
+}
+
+.tool-reveal, .tool-hide {
+    visibility: hidden;
+    opacity: 0;
+    display: border-box;
+    color: rgb(255, 249, 242);
+    background-color: rgb(106, 168, 79);
+    width: fit-content;
+    height: auto;
+    padding-top: 2px;
+    border-radius: 4px;
+    position: absolute;
+    transform: translateY(-80%);
+    text-align: center;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.title-reveal:hover .tool-reveal {
+    visibility: visible;
+    opacity: 0.85;
+    transition: opacity 0.5s ease-in 1s;
 }
