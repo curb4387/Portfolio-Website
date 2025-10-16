@@ -119,8 +119,9 @@ span {
     width: 25px;
     height: 25px;
     padding: 0;
-    padding-top: 4px;
+    padding-top: 5px;
     display: flex;
+    justify-content: center;
     align-items: center;
     position: relative;
     /* Tooltip styles */
@@ -139,7 +140,6 @@ span {
 .symbol-return {
     color: rgb(147, 196, 125);
     position: absolute;
-    transform: translateX(55%);
     line-height: 1;
 }
 
