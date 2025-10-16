@@ -206,6 +206,7 @@ body {
     overflow: auto;
 }
 
+
 /* Media query for mobile devices */
 @media (max-width: 600px) {
     html, body {
@@ -217,33 +218,6 @@ body {
         width: 100%;
         min-height: 100vh;
         height: auto;
-    }
-
-    #navbar {
-        position: fixed; /* follows screen when scrolling */
-        background-color: rgba(147, 196, 125, 0.9);
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        backdrop-filter: blur(2px);
-        border-radius: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        z-index: 1;
-        scrollbar-width: none;
-    }
-
-    #navbar::-webkit-scrollbar {
-        display: none;
-    }
-
-    #nav-link {
-        white-space: nowrap;
-    }
-
-    #time-date {
-        visibility: hidden;
-        width: 0;
-        height: 0;
     }
 
     #right-side {
