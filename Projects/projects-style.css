@@ -10,9 +10,11 @@ body {
 }
 
 .content {
-    width: 93.5vw;
-    height: 92vh;
+    max-width: 97.5vw;
+    height: auto;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    gap: 1rem;
 }
