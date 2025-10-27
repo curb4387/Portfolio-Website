@@ -206,6 +206,34 @@ body {
     overflow: auto;
 }
 
+/* About Me window styles */
+.intro, #skills-title {
+    font-weight: bold;
+    margin: 0; /* reset p element margins */
+}
+
+ul, li {
+    padding: 0.15rem;
+    margin: 0;
+}
+
+.body {
+    margin-top: 0.5rem;
+}
+
+#skills-title {
+    margin-bottom: 0.5rem;
+}
+
+#skills {
+    margin: 0 2rem 0.5rem 2rem;
+}
+
+#skills-link {
+    float: right;
+    margin-right: -1.5rem;
+}
+
 
 /* Media query for mobile devices */
 @media (max-width: 600px) {
